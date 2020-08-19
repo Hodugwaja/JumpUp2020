@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel = "stylesheet" href = "photoGalary.css">
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            font-family : "돋움";
+            font-size : 12px;
+            color : #666666;
+            background-color : #eeeeee;
+            display:inline
+        }
+        li{
+            list-style-type: none;
+        }
+        .clear{
+            clear:both;
+        }
+    </style>
+</head>
+<body>
+    <div id = "header">
+        <div id = "logo">PHOTO GALLERY</div>
+        <div id = "topMenu">로그인 | 회원가입 | 방명록</div>
+    </div>
+    <div id = "left">
+        <h2>포토갤러리</h2>
+        <ul>
+            <li class = "submenu">+ 풍경</li>
+            <li class = "submenu">+ 일상</li>
+            <li class = "submenu">+ 인물</li>
+            <li class = "submenu">+ 가족</li>
+        </ul>
+    </div>
+    <div id = "right">
+        <div id = "mainTitle">
+            풍경사진
+        </div>
+        <img id = "mainImg" src = "img/b-1.jpg">
+        <div id = "thumnail">
+            <img id = "moveLeft" src = "img/bt_move_left.gif">
+            <ul id = "photos">
+                <li><a href = "#"><img src = "img/s-1.jpg"></a></li>
+                <li><a href = "#"><img src = "img/s-2.jpg"></a></li>
+                <li><a href = "#"><img src = "img/s-3.jpg"></a></li>
+                <li><a href = "#"><img src = "img/s-4.jpg"></a></li>
+                <li><a href = "#"><img src = "img/s-5.jpg"></a></li>
+            </ul>
+            <img id = "moveRight" src = "img/bt_move_right.gif">
+        </div>
+    </div>
+</body>
+</html>

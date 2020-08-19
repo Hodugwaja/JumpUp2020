@@ -1,0 +1,75 @@
+body{
+    font-style : "돋움";
+    font-size : 12px;
+    color : #444444;
+}
+
+ul{
+    list-style-type : none;
+}
+
+#loginTitle{
+    width : 585px;
+    padding : 10px;
+    margin : 50px;
+    font-size : 0px;
+    border : soild 5px #e6e2d7;
+}
+
+#loginBox{
+    width : 610px;
+    height : 283px;
+    margin : 20px 0 0 50px;
+    border : solid 2px #cccccc;
+    border-radius : 20px
+}
+
+#memberLogin{
+    margin : 30px 0 0 50px;
+}
+
+#login{
+    margin: 20px 0 0 50px;
+}
+
+#left{
+    display:inline-block;
+    margin-left : 30px;
+}
+
+#right{
+    display: inline-block;
+    margin-left : 50px;
+}
+
+#idPass, #loginBtn{
+    display : inline-block;
+    vertical-align: top;
+}
+
+#idPass span{
+    display: inline-block;
+    width : 50px;
+}
+
+#idPass input{
+    width : 130px;
+    height : 20px;
+}
+
+#pass{
+    margin-top : 3px;
+}
+
+#autoLogin{
+    margin : 15px 0 0 25px;
+}
+
+#joinFind{
+    margin : 25px 0 0 20px;
+}
+
+#joinFind li{
+    padding : 2px;
+    list-style-type : disc;
+}

@@ -1,0 +1,101 @@
+#logo{
+    float : left;
+    font-size : 16px;
+    color : #3e2b23;
+    padding-top : 10px;
+    padding-left : 30px;
+}
+
+#topMenu{
+    float : right;
+    padding-top : 10px;
+    padding-right : 10px;
+}
+
+#header{
+    width : 800px;
+    height : 40px;
+    background-color: #dddddd;
+}
+
+#left{
+    width: 150px;
+    float : left;
+    height : 600px;
+    background-color: #343333;
+    color : #e2e2e2;
+}
+
+#left h2{
+    font-weight:normal;
+    padding-top: 20px;
+    padding-left:30px;
+}
+
+#left ul{
+    font-size : 14px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left:25px;
+}
+
+#left li{
+    padding: 3px;
+}
+
+#right{
+    width : 650px;
+    height : 600px;
+    float : left;
+    background-color: #252525;
+}
+
+#mainTitle{
+    width : 572px;
+    padding : 10px;
+    border : solid 5px #444444;
+    margin-top : 24px;
+    margin-left : 24px;
+    font-size : 18px;
+    color : white;
+    font-weight : bold;
+}
+
+#mainImg{
+    padding-top : 15px;
+    padding-left : 24px;
+}
+
+#thumnail{
+    padding : 30px 0 0 70px;
+}
+
+#thumnail #moveLeft{
+    margin-top : 20px;
+    margin-right : 5px;
+    margin-left : 40px;
+}
+
+#thumnail #moveRight{
+    margin-top : 20px;
+    margin-left : 20px;;
+}
+
+#thumnail #photos{
+    float:left;
+    margin-top : 3px;
+}
+
+#thumnail #photos li{
+    display : inline;
+    margin-left : 10px;
+}
+
+#thumnail #photos img{
+    border : solid 5px #3d3d3d;
+}
+
+#thumnail #photos a:hover img{
+    border:solid 5px #ffffff;
+}
