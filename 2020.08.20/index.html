@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>자바스크립트 용 태스트 파일</title>
-    <link rel = "stylesheet" href = "css/index.css">
+    <link rel = "stylesheet" type = text/css href = "css/index.css">
+    <link rel = "stylesheet" type = "text/css" href = "css/setAttribute.css"> 
 </head>
 <body>
     <!--
@@ -30,8 +31,11 @@
     <script src = "js/innerText_innerHTML.js"></script>
 
     <div id = "box">색상 바꾸기</div>
-    <button onclick = "setColor()">click</button>
 
+    <button onclick = "setColor()">click</button>
     <script src = "js/style.js"></script>
+
+    <div id = "box2" onclick = "changeColor()">Hello Box</div>
+    <script src = "js/setAttribute.js"></script>
 </body>
 </html>
