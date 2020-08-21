@@ -4,7 +4,8 @@
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  margin: auto;
+  margin: 50px auto auto auto;
+  border : 1px 4solid #820024;
 }
 
 /* Hide the images by default */
@@ -109,4 +110,11 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+.main{
+    max-width: 1000px;
+    margin: auto;    
+}
