@@ -24,12 +24,13 @@ ul {
 }
 #mainMenu {
     margin-top:15px;
-    padding:12px;
+    padding:30px;
     text-align:center;
+    
 }
-#mainMenu div li {
-    padding:0 40px 0 40px;
+#mainMenu div a {
     display:inline;
+    opacity : 1;
 }
 
 #mainMenu:hover{
