@@ -6,7 +6,11 @@
     border: none;
     font-weight : bold;
     text-align : center;
-    float : left;
+    position : static;
+    text-align : center;
+    margin : "0 40px 0 40px";
+    min-width: 100.43px;
+    
 }
 
 .dropdown{
@@ -43,6 +47,6 @@
 
   .dropdown:hover .dropbtn{
     color : #b98043;
-    background-color : #820024; 
+    background-color : #820024;
   }
  

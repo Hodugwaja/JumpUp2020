@@ -6,6 +6,8 @@ var slideIndex14 = 0;
 showSlides14();
 var slideIndex52 = 0;
 showSlides52();
+var slideIndex22 = 0;
+showSlides22();
 
 function showSlides3() {
   var i;
@@ -53,4 +55,15 @@ function showSlides14() {
     if (slideIndex52 > slides.length) {slideIndex52 = 1}
     slides[slideIndex52-1].style.display = "block";
     setTimeout(showSlides52, 2000); // Change image every 2 seconds
+  }
+  function showSlides22() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides22");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex22++;
+    if (slideIndex22 > slides.length) {slideIndex22 = 1}
+    slides[slideIndex22-1].style.display = "block";
+    setTimeout(showSlides22, 2000); // Change image every 2 seconds
   }
